@@ -1,0 +1,74 @@
+test01_login (cases.test_01CreatOrder.test_01CreatOrder) ... ok
+test02_getClass (cases.test_01CreatOrder.test_01CreatOrder) ... FAIL
+test03_toSignUp (cases.test_01CreatOrder.test_01CreatOrder) ... ok
+test04_importConsignee (cases.test_01CreatOrder.test_01CreatOrder) ... FAIL
+test05_subOrder (cases.test_01CreatOrder.test_01CreatOrder) ... ok
+test06_screenshots (cases.test_01CreatOrder.test_01CreatOrder) ... ERROR
+
+======================================================================
+ERROR: test06_screenshots (cases.test_01CreatOrder.test_01CreatOrder)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\autoTest\cases\test_01CreatOrder.py", line 151, in test06_screenshots
+    self.driver.save_screenshot(r"E:\\printscreen\pay.png")
+  File "C:\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1346, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1321, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1357, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1369, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=100.0.4896.88)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x010B7413+2389011]
+	Ordinal0 [0x01049F61+1941345]
+	Ordinal0 [0x00F3C520+836896]
+	Ordinal0 [0x00F30682+788098]
+	Ordinal0 [0x00F30EB8+790200]
+	Ordinal0 [0x00F32752+796498]
+	Ordinal0 [0x00F2C0D9+770265]
+	Ordinal0 [0x00F3D9D0+842192]
+	Ordinal0 [0x00F93AE2+1194722]
+	Ordinal0 [0x00F83F66+1130342]
+	Ordinal0 [0x00F5E546+976198]
+	Ordinal0 [0x00F5F456+980054]
+	GetHandleVerifier [0x01269632+1727522]
+	GetHandleVerifier [0x0131BA4D+2457661]
+	GetHandleVerifier [0x0114EB81+569713]
+	GetHandleVerifier [0x0114DD76+566118]
+	Ordinal0 [0x01050B2B+1968939]
+	Ordinal0 [0x01055988+1989000]
+	Ordinal0 [0x01055A75+1989237]
+	Ordinal0 [0x0105ECB1+2026673]
+	BaseThreadInitThunk [0x74F66359+25]
+	RtlGetAppContainerNamedObjectPath [0x77577B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77577B44+180]
+
+
+======================================================================
+FAIL: test02_getClass (cases.test_01CreatOrder.test_01CreatOrder)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\autoTest\cases\test_01CreatOrder.py", line 97, in test02_getClass
+    self.assertEqual(count,1)
+AssertionError: <built-in method count of list object at 0x0000028E33681F40> != 1
+
+======================================================================
+FAIL: test04_importConsignee (cases.test_01CreatOrder.test_01CreatOrder)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\autoTest\cases\test_01CreatOrder.py", line 137, in test04_importConsignee
+    self.assertTrue(self.driver.find_elements(By.CSS_SELECTOR, 'div[class="placeorder_main_title"]>span')[3].text == self.name)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 43.132s
+
+FAILED (failures=2, errors=1)

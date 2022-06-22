@@ -1,0 +1,16 @@
+{
+  "test_PayByPhone.py": true,
+  "test_CreatOrder.py::test_CreatOrder::test06_screenshots": true,
+  "test01_CreatOrder.py::test_CreatOrder::test02_getClass": true,
+  "test01_CreatOrder.py::test_CreatOrder::test03_toSignUp": true,
+  "test01_CreatOrder.py::test_CreatOrder::test04_importConsignee": true,
+  "test01_CreatOrder.py::test_CreatOrder::test05_subOrder": true,
+  "test01_CreatOrder.py::test_CreatOrder::test06_screenshots": true,
+  "test01_CreatOrder.py": true,
+  "test_01CreatOrder.py::test_CreatOrder::test01_login": true,
+  "test_01CreatOrder.py::test_CreatOrder::test02_getClass": true,
+  "test_01CreatOrder.py::test_CreatOrder::test03_toSignUp": true,
+  "test_01CreatOrder.py::test_CreatOrder::test04_importConsignee": true,
+  "test_01CreatOrder.py::test_CreatOrder::test05_subOrder": true,
+  "test_01CreatOrder.py::test_CreatOrder::test06_screenshots": true
+}

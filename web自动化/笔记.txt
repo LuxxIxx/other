@@ -1,0 +1,42 @@
+总数据业绩对比
+测试数据巡检
+拼团功能，背单词功能
+支付功能web自动化，app自动化
+线上各个商户验证自动化
+模考压测，导出token工具
+自动创建订单，审核工具
+导出测试数据工具
+
+
+
+
+
+selenium中 ifarme滚动条的方法
+selenium显示验证码     OCR光学字符识别 tesserocr   pytesseract
+selenium  保存指定模块截图
+selenium 中ifarme元素的定位
+selenium  获取元素属性进行遍历
+for循环中只能用range进行遍历  否则会出现定位失效情况
+python 打包工具库    pyinstaller -F -i 1.ico test.py
+unittest类循环方法，继承在main中循环
+
+
+linux实时滚动中 进行操作看日志定位bug
+
+
+
+
+
+
+容易出bug点
+导入数据的分页
+24小时制度
+上传图片的比例
+h5页面刷新延迟
+
+
+django
+创建项目 django-admin startproject demo
+创建app  python manage
+注册app  
+启动服务 python manage.py runserver

@@ -1,0 +1,7 @@
+{
+  "getShopNum.py::test_GetShopNum::test03_findShopNum": true,
+  "getShopNum.py::test_GetShopNum::test04_subId": true,
+  "getShopNum.py::test_GetShopNum::test02_findOrder": true,
+  "getShopNum.py::test_GetShopNum::test04_findPayData": true,
+  "getShopNum.py::test_GetShopNum::test05_subId": true
+}

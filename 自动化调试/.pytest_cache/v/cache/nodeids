@@ -1,0 +1,9 @@
+[
+  "getShopNum.py::test_GetShopNum::test00_cookies",
+  "getShopNum.py::test_GetShopNum::test01_login",
+  "getShopNum.py::test_GetShopNum::test02_findOrder",
+  "getShopNum.py::test_GetShopNum::test03_findShopNum",
+  "getShopNum.py::test_GetShopNum::test04_findPayData",
+  "getShopNum.py::test_GetShopNum::test04_subId",
+  "getShopNum.py::test_GetShopNum::test05_subId"
+]
